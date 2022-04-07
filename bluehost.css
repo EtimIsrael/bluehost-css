@@ -1,0 +1,88 @@
+
+/* default setting */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    height: 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* end of default setting */
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+    align-items: center;
+    padding-inline: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+}
+
+.logo{
+    width: 20%;
+    height: 19px;
+}
+
+.menu-bar{
+    width: 27px;
+}
+
+.here{
+    background-color: #ccedff;
+}
+.hereWrap{
+    margin: 0 auto;
+}
+
+.here, h1{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 1.7rem 0;
+    color: rgb(154, 73, 230);
+}
+
+.hereWrap, h2{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-bottom: 1.5rem;
+    color: #1d2a1d;
+}
+
+.hereWrap, p{
+    font-family: serif;
+    line-height: 1.1;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #1d2a1d;
+    margin-bottom: 1.5rem;
+}
+
+.hereWrap, button{
+    color: white;
+    padding: 1.1rem;
+    
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 2px;
+    margin-bottom: 1.1rem;
+}
+
+#bulb{
+    background-color: rgb(103, 103, 233);
+}
+
+.img{
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
